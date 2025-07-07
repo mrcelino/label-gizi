@@ -25,7 +25,7 @@ const RecentScanCard = ({ item }: { item: RecentScan }) => (
     <View style={{ backgroundColor: item.color }} className="w-10 h-10 rounded-full items-center justify-center mb-3">
       <Text className="text-white text-lg font-bold">{item.score}</Text>
     </View>
-    <Text className="text-sm font-sans text-center text-slate-700">{item.name}</Text>
+    <Text className="text-sm font-poppins text-center text-slate-700">{item.name}</Text>
   </TouchableOpacity>
 );
 
