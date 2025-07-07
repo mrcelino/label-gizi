@@ -16,7 +16,7 @@ export default function TabLayout() {
         options={{
           title: 'Home',
           tabBarIcon: ({ color, focused }) => (
-            <Ionicons name={focused ? 'home' : 'home-outline'} size={24} color={color} />
+            <Ionicons name={focused ? 'home' : 'home-outline'} size={28} color={color} />
           ),
         }}
       />
@@ -36,17 +36,17 @@ export default function TabLayout() {
         options={{
           title: 'Pindai',
           tabBarIcon: ({ color, focused }) => (
-            <Ionicons name={focused ? 'scan-circle' : 'scan-circle-outline'} size={28} color={color} />
+            <Ionicons name={focused ? 'scan-circle' : 'scan-circle-outline'} size={46} color={color} />
           ),
         }}
       />
       {/* 4. Layar Riwayat */}
       <Tabs.Screen
-        name="history"
+        name="chat"
         options={{
-          title: 'History',
+          title: 'Chat',
           tabBarIcon: ({ color, focused }) => (
-            <Ionicons name={focused ? 'time' : 'time-outline'} size={24} color={color} />
+            <Ionicons name={focused ? 'chatbubble' : 'chatbubble-outline'} size={28} color={color} />
           ),
         }}
       />
@@ -56,7 +56,7 @@ export default function TabLayout() {
         options={{
           title: 'Profil',
           tabBarIcon: ({ color, focused }) => (
-            <Ionicons name={focused ? 'person-circle' : 'person-circle-outline'} size={24} color={color} />
+            <Ionicons name={focused ? 'person-circle' : 'person-circle-outline'} size={28} color={color} />
           ),
         }}
       />
