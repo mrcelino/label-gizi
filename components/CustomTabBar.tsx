@@ -84,7 +84,7 @@ const CustomTabBar: React.FC<BottomTabBarProps> = ({ state, descriptors, navigat
             className={`flex-1 flex-col items-center justify-center py-2 rounded-2xl mx-1 ${isFocused ? '' : 'bg-transparent'}`}
           >
             {Icon}
-            <Text className={`text-[10px] mt-1 ${isFocused ? 'text-blue-600' : 'text-gray-500'}`}>
+            <Text className={`text-[10px] mt-1 font-semibold ${isFocused ? 'text-blue-600' : 'text-gray-500'}`}>
               {options.title}
             </Text>
           </TouchableOpacity>

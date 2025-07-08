@@ -41,8 +41,8 @@ export default function HomeScreen() {
       {/* Header untuk sambutan personal */}
       <View className="pt-[60px] pb-5 flex-row justify-between items-center">
         <View>
-          <Text className="text-base text-slate-500">Selamat Pagi,</Text>
-          <Text className="text-2xl font-bold text-slate-800">Pengguna!</Text>
+          <Text className="text-base text-slate-500 font-sans">Selamat Datang</Text>
+          <Text className="text-2xl font-semibold text-slate-800">Marcelino!</Text>
         </View>
         <TouchableOpacity onPress={() => router.push('/(tabs)/profile')}>
           <Ionicons name="person-circle-outline" size={40} color="#334155" />
@@ -68,8 +68,8 @@ export default function HomeScreen() {
         >
           <Feather name="maximize" size={32} color="white" />
           <View className="ml-4">
-            <Text className="text-xl font-bold text-white">Pindai Label Gizi</Text>
-            <Text className="text-sm text-white/80">Arahkan kamera untuk memulai</Text>
+            <Text className="text-xl font-semibold text-white">Pindai Label Gizi</Text>
+            <Text className="text-base font-medium text-white/80">Arahkan kamera untuk memulai</Text>
           </View>
         </LinearGradient>
       </TouchableOpacity>
@@ -99,7 +99,7 @@ export default function HomeScreen() {
         <Text className="text-lg font-semibold text-slate-800 mb-3">Tips Sehat Hari Ini</Text>
         <View className="bg-green-100 rounded-2xl p-4 flex-row items-center">
           <Ionicons name="bulb-outline" size={24} color="#059669" />
-          <Text className="flex-1 ml-3 text-green-800 text-sm">
+          <Text className="flex-1 ml-3 text-green-800 text-sm font-sans">
             Perhatikan jumlah gula tambahan pada minuman kemasan. Seringkali lebih tinggi dari yang Anda kira!
           </Text>
         </View>
